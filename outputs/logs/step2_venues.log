@@ -1,0 +1,66 @@
+01:57:49 INFO ======================================================================
+01:57:49 INFO Step 2 summary: venues assigned to 7288 completed regular-season games
+01:57:49 INFO 2024: 2429 games at 35 venues; 8 neutral-site games at 5 venues
+01:57:49 INFO     neutral: Estadio Alfredo Harp Helu    2 game(s): Houston Astros @ Colorado Rockies
+01:57:49 INFO     neutral: Gocheok Sky Dome             2 game(s): Los Angeles Dodgers @ San Diego Padres; San Diego Padres @ Los Angeles Dodgers
+01:57:49 INFO     neutral: Journey Bank Ballpark        1 game(s): New York Yankees @ Detroit Tigers
+01:57:49 INFO     neutral: London Stadium               2 game(s): New York Mets @ Philadelphia Phillies; Philadelphia Phillies @ New York Mets
+01:57:49 INFO     neutral: Rickwood Field               1 game(s): San Francisco Giants @ St. Louis Cardinals
+01:57:49 INFO 2025: 2430 games at 33 venues; 4 neutral-site games at 3 venues
+01:57:49 INFO     neutral: Bristol Motor Speedway       1 game(s): Atlanta Braves @ Cincinnati Reds
+01:57:49 INFO     neutral: Journey Bank Ballpark        1 game(s): Seattle Mariners @ New York Mets
+01:57:49 INFO     neutral: Tokyo Dome                   2 game(s): Los Angeles Dodgers @ Chicago Cubs
+01:57:49 INFO 2026: 2429 games at 34 venues; 11 neutral-site games at 5 venues
+01:57:49 INFO     neutral: Estadio Alfredo Harp Helu    2 game(s): San Diego Padres @ Arizona Diamondbacks
+01:57:49 INFO     neutral: Field of Dreams              1 game(s): Philadelphia Phillies @ Minnesota Twins
+01:57:49 INFO     neutral: Journey Bank Ballpark        1 game(s): Atlanta Braves @ Milwaukee Brewers
+01:57:49 INFO     neutral: Las Vegas Ballpark           6 game(s): Colorado Rockies @ Athletics; Milwaukee Brewers @ Athletics
+01:57:49 INFO     neutral: Tropicana Field              1 game(s): Chicago Cubs @ Boston Red Sox
+01:57:49 INFO Teams whose home park changed during 2024-2026:
+season                      2024                          2025                2026
+team                                                                              
+Athletics       Oakland Coliseum            Sutter Health Park  Sutter Health Park
+Tampa Bay Rays   Tropicana Field  George M. Steinbrenner Field     Tropicana Field
+01:57:49 INFO load_statcast(2024): excluding 20583 non-regular-season pitch rows by game_type: {'S': 20583}
+01:57:49 INFO 2024: 2429 Statcast games, 2429 with a venue, 0 unmapped []
+01:57:49 INFO load_statcast(2025): excluding 29552 non-regular-season pitch rows by game_type: {'S': 29552}
+01:57:50 INFO 2025: 2430 Statcast games, 2430 with a venue, 0 unmapped []
+01:57:50 INFO 2026: 2429 Statcast games, 2429 with a venue, 0 unmapped []
+01:57:50 INFO 2026 venues used (game counts):
+venue_name                      is_neutral
+Angel Stadium                   False         81
+Busch Stadium                   False         81
+Citi Field                      False         81
+loanDepot park                  False         81
+Citizens Bank Park              False         81
+Comerica Park                   False         81
+Coors Field                     False         81
+Daikin Park                     False         81
+Nationals Park                  False         81
+Great American Ball Park        False         81
+Globe Life Field                False         81
+Oracle Park                     False         81
+Kauffman Stadium                False         81
+Rogers Centre                   False         81
+Rate Field                      False         81
+Progressive Field               False         81
+Petco Park                      False         81
+PNC Park                        False         81
+Oriole Park at Camden Yards     False         81
+T-Mobile Park                   False         81
+Truist Park                     False         81
+Wrigley Field                   False         81
+UNIQLO Field at Dodger Stadium  False         81
+Tropicana Field                 False         81
+American Family Field           False         80
+Yankee Stadium                  False         80
+Fenway Park                     False         80
+Target Field                    False         80
+Chase Field                     False         79
+Sutter Health Park              False         75
+Las Vegas Ballpark              True           6
+Estadio Alfredo Harp Helu       True           2
+Journey Bank Ballpark           True           1
+Field of Dreams                 True           1
+Tropicana Field                 True           1
+01:57:50 INFO Saved C:\Users\sidne\whip-paradox\data\processed\games.parquet and C:\Users\sidne\whip-paradox\outputs\tables\venues.csv
