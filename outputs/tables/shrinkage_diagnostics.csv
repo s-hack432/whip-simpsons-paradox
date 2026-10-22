@@ -1,0 +1,5 @@
+scheme,min_ip,n_pitchers,noise_var_whip_per_ip,tau2_interaction,k_eb_pitcher_centred_ip,tau2_talent,k_eb_league_centred_ip
+3tier,40,389,1.84810,0.00585,315.92473,0.01808,102.23723
+3tier,80,178,1.84810,-0.00025,inf,0.01494,123.71848
+2tier,40,389,1.84810,0.00697,265.09971,0.01750,105.60949
+2tier,80,178,1.84810,0.00158,1169.69167,0.01555,118.84432
