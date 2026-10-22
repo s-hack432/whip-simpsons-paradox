@@ -1,0 +1,119 @@
+01:57:51 INFO ======================================================================
+01:57:51 INFO load_statcast(2024): excluding 20583 non-regular-season pitch rows by game_type: {'S': 20583}
+01:57:53 INFO 2024: 711899 pitches, 43253 half-innings, 129349 outs credited, 39823 hits, 14929 walks (509 intentional); 8 walk(s) charged back to the previous pitcher (rule 9.16(h))
+01:57:55 INFO 2024: game-level reconciliation vs official linescores: 2427/2427 games match exactly on half-innings, hits and outs
+01:57:55 INFO 2024: 2 game(s) have no inning-by-inning official linescore in the API and were not reconciled: [745873, 746402]
+01:57:55 INFO 2024: 20693 pitcher-game rows for 855 pitchers saved to pitcher_games_2024.parquet
+01:57:55 INFO 2024 validation vs official MLB Stats API season lines:
+01:57:55 INFO   pitchers: 855 official, 855 computed, 0 in only one source
+01:57:55 INFO   exact match on outs, H and BB: 98.8% of all pitchers; 98.2% of the 541 pitchers with 20+ IP
+01:57:55 INFO   within 1 out / 1 H / 1 BB: 100.0% of all; 100.0% of 20+ IP pitchers (required: 95%)
+01:57:55 INFO   G and GS identical: 100.0% of pitchers
+01:57:55 INFO   league totals, computed minus official: outs +0, H +0, BB +0
+01:57:55 INFO   pitchers with any discrepancy (10):
+ pitcher            name  outs_off  d_outs  h_off  d_h  bb_off  d_bb  d_g  d_gs source
+  605130    Scott Barlow       165       1     44    0      31     0    0     0   both
+  621383    Tanner Banks       217      -1     69    0      25     0    0     0   both
+  650893 Génesis Cabrera       188      -1     63    0      29     0    0     0   both
+  622253     Dillon Tate       110       1     42    0      12     0    0     0   both
+  471911 Carlos Carrasco       311       1    112    0      33     0    0     0   both
+  571948     Hoby Milner       194      -1     63    0      14     0    0     0   both
+  669060    Bryse Wilson       314       1    102    0      31     0    0     0   both
+  680897   Nick Nastrini       107       1     32    0      36     0    0     0   both
+  682120      Tim Herrin       197      -1     39    0      25     0    0     0   both
+  683769   Hunter Gaddis       224      -1     43    0      14     0    0     0   both
+01:57:56 INFO   game-level location of those discrepancies:
+ pitcher            name  game_pk       date  d_outs  d_h  d_bb
+  605130    Scott Barlow   746622 2024-06-22       1    0     0
+  621383    Tanner Banks   746786 2024-06-08      -1    0     0
+  650893 Génesis Cabrera   745038 2024-09-21      -1    0     0
+  622253     Dillon Tate   745038 2024-09-21       1    0     0
+  471911 Carlos Carrasco   746602 2024-08-07       1    0     0
+  571948     Hoby Milner   745569 2024-06-03      -1    0     0
+  669060    Bryse Wilson   745569 2024-06-03       1    0     0
+  680897   Nick Nastrini   746786 2024-06-08       1    0     0
+  682120      Tim Herrin   746602 2024-08-07      -1    0     0
+  683769   Hunter Gaddis   746622 2024-06-22      -1    0     0
+01:57:56 INFO ======================================================================
+01:57:56 INFO load_statcast(2025): excluding 29552 non-regular-season pitch rows by game_type: {'S': 29552}
+01:57:59 INFO 2025: 712528 pitches, 43220 half-innings, 129225 outs credited, 40138 hits, 15379 walks (556 intentional); 15 walk(s) charged back to the previous pitcher (rule 9.16(h))
+01:58:02 INFO 2025: game-level reconciliation vs official linescores: 2430/2430 games match exactly on half-innings, hits and outs
+01:58:02 INFO 2025: 20868 pitcher-game rows for 873 pitchers saved to pitcher_games_2025.parquet
+01:58:03 INFO 2025 validation vs official MLB Stats API season lines:
+01:58:03 INFO   pitchers: 873 official, 873 computed, 0 in only one source
+01:58:03 INFO   exact match on outs, H and BB: 99.3% of all pitchers; 98.9% of the 542 pitchers with 20+ IP
+01:58:03 INFO   within 1 out / 1 H / 1 BB: 100.0% of all; 100.0% of 20+ IP pitchers (required: 95%)
+01:58:03 INFO   G and GS identical: 100.0% of pitchers
+01:58:03 INFO   league totals, computed minus official: outs +0, H +0, BB +0
+01:58:03 INFO   pitchers with any discrepancy (6):
+ pitcher             name  outs_off  d_outs  h_off  d_h  bb_off  d_bb  d_g  d_gs source
+  668390        Cole Winn       125       1     23    0      17     0    0     0   both
+  571948      Hoby Milner       211      -1     68    0      21     0    0     0   both
+  605540 Brandon Woodruff       194       1     45    0      14     0    0     0   both
+  663460       Kris Bubic       349       1     98    0      39     0    0     0   both
+  657649     Jared Koenig       198      -1     57    0      20     0    0     0   both
+  668674      Lucas Erceg       184      -1     54    0      18     0    0     0   both
+01:58:03 INFO   game-level location of those discrepancies:
+ pitcher             name  game_pk       date  d_outs  d_h  d_bb
+  668390        Cole Winn   776349 2025-09-13       1    0     0
+  571948      Hoby Milner   776349 2025-09-13      -1    0     0
+  605540 Brandon Woodruff   777135 2025-07-12       1    0     0
+  663460       Kris Bubic   777931 2025-05-13       1    0     0
+  657649     Jared Koenig   777135 2025-07-12      -1    0     0
+  668674      Lucas Erceg   777931 2025-05-13      -1    0     0
+01:58:03 INFO ======================================================================
+01:58:06 INFO 2026: 1 game(s) whose official final half-inning has no Statcast pitches: [824807]
+01:58:06 INFO 2026: 716792 pitches, 43203 half-innings, 129239 outs credited, 39848 hits, 16337 walks (545 intentional); 10 walk(s) charged back to the previous pitcher (rule 9.16(h))
+01:58:08 INFO 2026: game-level reconciliation vs official linescores: 2424/2429 games match exactly on half-innings, hits and outs
+01:58:08 INFO 2026 mismatching games (hit differences are official scoring changes made after the game, which Statcast's events do not reflect):
+ game_pk  halves_official  halves_statcast  hits_official  hits_statcast  outs_expected  outs_statcast  unmatched    ok  official_detail
+  822678               18               18             13           12.0           54.0           54.0          0 False             True
+  823491               18               18             21           22.0           54.0           54.0          0 False             True
+  824058               18               18             23           22.0           54.0           54.0          0 False             True
+  824707               18               18              7            6.0           54.0           54.0          0 False             True
+  824785               17               17             14           15.0           51.0           51.0          0 False             True
+01:58:08 INFO 2026: 20800 pitcher-game rows for 868 pitchers saved to pitcher_games_2026.parquet
+01:58:09 INFO 2026 validation vs official MLB Stats API season lines:
+01:58:09 INFO   pitchers: 868 official, 868 computed, 0 in only one source
+01:58:09 INFO   exact match on outs, H and BB: 98.0% of all pitchers; 97.2% of the 539 pitchers with 20+ IP
+01:58:09 INFO   within 1 out / 1 H / 1 BB: 100.0% of all; 100.0% of 20+ IP pitchers (required: 95%)
+01:58:09 INFO   G and GS identical: 100.0% of pitchers
+01:58:09 INFO   league totals, computed minus official: outs +0, H -1, BB +0
+01:58:09 INFO   pitchers with any discrepancy (17):
+ pitcher              name  outs_off  d_outs  h_off  d_h  bb_off  d_bb  d_g  d_gs source
+  605280       Clay Holmes       304       1     79    0      42     0    0     0   both
+  608718       Brent Suter       273      -1     86    0      25     0    0     0   both
+  664991     Grant Wolfram       157      -1     53    0      16     0    0     0   both
+  573204    Caleb Thielbar       150      -1     47    0      18     0    0     0   both
+  663623        Jake Irvin       320       0    101   -1      48     0    0     0   both
+  621112    Paul Blackburn       255       0     59    1      33     0    0     0   both
+  542888   Shawn Armstrong       106       0     30   -1      19     0    0     0   both
+  656240     Scott Blewett       112      -1     40    0      11     0    0     0   both
+  669620       Brady Basso       129       1     61    0      10     0    0     0   both
+  669358         Shane Baz       539       1    179    0      63     0    0     0   both
+  670990     Yohan Ramírez       255       1     57    0      44     0    0     0   both
+  676282     Joey Cantillo       477       0    145   -1      81     0    0     0   both
+  680570 Grayson Rodriguez       296       1    111    0      43     0    0     0   both
+  681151     Jayden Murray        49      -1     25    0       9     0    0     0   both
+  681895         Evan Sisk       134      -1     36    0      25     0    0     0   both
+  801725      Luis De León        28       0      5    1       2     0    0     0   both
+  837227      Tatsuya Imai       230       1     58    0      51     0    0     0   both
+01:58:09 INFO   game-level location of those discrepancies:
+ pitcher              name  game_pk       date  d_outs  d_h  d_bb
+  605280       Clay Holmes   824640 2026-08-19       1    0     0
+  608718       Brent Suter   824029 2026-05-22      -1    0     0
+  664991     Grant Wolfram   823574 2026-09-15      -1    0     0
+  573204    Caleb Thielbar   824640 2026-08-19      -1    0     0
+  663623        Jake Irvin   822678 2026-09-26       0   -1     0
+  621112    Paul Blackburn   823491 2026-09-25       0    1     0
+  542888   Shawn Armstrong   824058 2026-09-25       0   -1     0
+  656240     Scott Blewett   824966 2026-08-15      -1    0     0
+  669620       Brady Basso   824966 2026-08-15       1    0     0
+  669358         Shane Baz   823574 2026-09-15       1    0     0
+  670990     Yohan Ramírez   822814 2026-05-23       1    0     0
+  676282     Joey Cantillo   824707 2026-09-24       0   -1     0
+  680570 Grayson Rodriguez   824029 2026-05-22       1    0     0
+  681151     Jayden Murray   823705 2026-05-18      -1    0     0
+  681895         Evan Sisk   822814 2026-05-23      -1    0     0
+  801725      Luis De León   824785 2026-09-23       0    1     0
+  837227      Tatsuya Imai   823705 2026-05-18       1    0     0
