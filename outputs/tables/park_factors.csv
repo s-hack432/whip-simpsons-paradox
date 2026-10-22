@@ -1,0 +1,37 @@
+rank,venue,team,seasons_used,n_seasons,home_games,outs_at_venue,rate_at_venue,road_games,outs_road,rate_road,pf_raw,pf_regressed,pf_regressed_se,tier_3,tier_2,tier_bootstrap_agreement,games_2026,ip_2026,ip_share_2026,venue_id,home_team_id
+1,Coors Field,Colorado Rockies,"2024, 2025, 2026",3,241,12851,0.4923,240,12656,0.4295,1.1462,1.1096,0.0200,Hitter-friendly,Hitter-friendly,1.0000,81,1439.3333,0.0334,19,115
+2,Sutter Health Park,Athletics,"2025, 2026",2,156,8355,0.4861,162,8582,0.4239,1.1466,1.0968,0.0207,Hitter-friendly,Hitter-friendly,1.0000,75,1339.6667,0.0311,2529,133
+3,Kauffman Stadium,Kansas City Royals,"2024, 2025, 2026",3,243,12859,0.4382,243,12882,0.4144,1.0575,1.0431,0.0184,Hitter-friendly,Hitter-friendly,0.9350,81,1438.0000,0.0334,7,118
+4,PNC Park,Pittsburgh Pirates,"2024, 2025, 2026",3,243,12962,0.4358,243,12964,0.4136,1.0537,1.0403,0.0198,Hitter-friendly,Hitter-friendly,0.9080,81,1440.3333,0.0334,31,134
+5,Target Field,Minnesota Twins,"2024, 2025, 2026",3,242,12891,0.4366,243,12908,0.4175,1.0457,1.0343,0.0180,Hitter-friendly,Hitter-friendly,0.8480,80,1420.0000,0.0330,3312,142
+6,Fenway Park,Boston Red Sox,"2024, 2025, 2026",3,242,12934,0.4365,243,13017,0.4198,1.0397,1.0298,0.0176,Hitter-friendly,Hitter-friendly,0.7990,80,1418.6667,0.0329,3,111
+7,George M. Steinbrenner Field,Tampa Bay Rays,2025,1,81,4299,0.4266,81,4300,0.4081,1.0453,1.0226,0.0213,not used in 2026,not used in 2026,,,,,2523,139
+8,Progressive Field,Cleveland Guardians,"2024, 2025, 2026",3,242,12822,0.4187,243,12965,0.4064,1.0302,1.0226,0.0187,Hitter-friendly,Hitter-friendly,0.6820,81,1439.3333,0.0334,5,114
+9,Truist Park,Atlanta Braves,"2024, 2025, 2026",3,243,12887,0.4290,241,12868,0.4169,1.0289,1.0216,0.0193,Hitter-friendly,Hitter-friendly,0.6630,81,1427.0000,0.0331,4705,144
+10,Great American Ball Park,Cincinnati Reds,"2024, 2025, 2026",3,242,12844,0.4313,243,12901,0.4202,1.0265,1.0198,0.0192,Hitter-friendly,Hitter-friendly,0.5860,81,1438.3333,0.0334,2602,113
+11,Chase Field,Arizona Diamondbacks,"2024, 2025, 2026",3,241,12870,0.4496,243,12970,0.4388,1.0246,1.0184,0.0182,Hitter-friendly,Hitter-friendly,0.5800,79,1400.0000,0.0325,15,109
+12,Citizens Bank Park,Philadelphia Phillies,"2024, 2025, 2026",3,242,12858,0.4334,241,12808,0.4278,1.0132,1.0099,0.0178,Neutral,Other,0.5760,81,1443.3333,0.0335,2681,143
+13,Nationals Park,Washington Nationals,"2024, 2025, 2026",3,243,12962,0.4434,243,12883,0.4376,1.0131,1.0099,0.0174,Neutral,Other,0.5640,81,1438.0000,0.0334,3309,120
+14,loanDepot park,Miami Marlins,"2024, 2025, 2026",3,243,13038,0.4343,243,12894,0.4307,1.0082,1.0062,0.0171,Neutral,Other,0.6260,81,1423.3333,0.0330,4169,146
+15,Yankee Stadium,New York Yankees,"2024, 2025, 2026",3,242,12776,0.4325,242,13038,0.4298,1.0061,1.0046,0.0182,Neutral,Other,0.6200,80,1405.0000,0.0326,3313,147
+16,Comerica Park,Detroit Tigers,"2024, 2025, 2026",3,242,12847,0.4134,243,12972,0.4160,0.9936,0.9952,0.0190,Neutral,Other,0.6110,81,1432.6667,0.0333,2394,116
+17,Oakland Coliseum,Athletics,2024,1,81,4356,0.4222,81,4298,0.4272,0.9883,0.9941,0.0219,not used in 2026,not used in 2026,,,,,10,133
+18,Oriole Park at Camden Yards,Baltimore Orioles,"2024, 2025, 2026",3,243,12911,0.4289,242,12942,0.4329,0.9908,0.9931,0.0160,Neutral,Other,0.6540,81,1438.0000,0.0334,2,110
+19,Rogers Centre,Toronto Blue Jays,"2024, 2025, 2026",3,243,12907,0.4286,243,12888,0.4328,0.9903,0.9927,0.0178,Neutral,Other,0.6230,81,1433.3333,0.0333,14,141
+20,Tropicana Field,Tampa Bay Rays,"2024, 2026",2,162,8597,0.4047,162,8660,0.4098,0.9875,0.9916,0.0201,Neutral,Other,0.5460,82,1434.6667,0.0333,12,139
+21,Busch Stadium,St. Louis Cardinals,"2024, 2025, 2026",3,242,12865,0.4264,243,13002,0.4326,0.9857,0.9893,0.0170,Neutral,Other,0.5840,81,1448.3333,0.0336,2889,138
+22,Citi Field,New York Mets,"2024, 2025, 2026",3,241,12875,0.4268,242,12852,0.4373,0.9760,0.9820,0.0168,Neutral,Other,0.4710,81,1448.0000,0.0336,3289,121
+23,Daikin Park,Houston Astros,"2024, 2025, 2026",3,243,12891,0.4226,240,12825,0.4338,0.9743,0.9807,0.0177,Pitcher-friendly,Other,0.5400,81,1435.6667,0.0333,2392,117
+24,UNIQLO Field at Dodger Stadium,Los Angeles Dodgers,"2024, 2025, 2026",3,242,12767,0.4288,240,12820,0.4407,0.9729,0.9797,0.0172,Pitcher-friendly,Other,0.5620,81,1420.6667,0.0330,22,119
+25,Rate Field,Chicago White Sox,"2024, 2025, 2026",3,243,13002,0.4221,243,12819,0.4347,0.9711,0.9783,0.0176,Pitcher-friendly,Other,0.5870,81,1447.6667,0.0336,4,145
+26,Oracle Park,San Francisco Giants,"2024, 2025, 2026",3,243,12983,0.4208,242,12804,0.4358,0.9655,0.9741,0.0176,Pitcher-friendly,Other,0.6590,81,1440.6667,0.0334,2395,137
+27,American Family Field,Milwaukee Brewers,"2024, 2025, 2026",3,242,12787,0.4259,240,12848,0.4453,0.9565,0.9674,0.0181,Pitcher-friendly,Other,0.7950,80,1402.0000,0.0325,32,158
+28,Wrigley Field,Chicago Cubs,"2024, 2025, 2026",3,241,12813,0.4218,242,12856,0.4421,0.9543,0.9658,0.0176,Pitcher-friendly,Other,0.8170,81,1449.0000,0.0336,17,112
+29,Angel Stadium,Los Angeles Angels,"2024, 2025, 2026",3,243,13020,0.4180,243,12881,0.4387,0.9529,0.9646,0.0167,Pitcher-friendly,Other,0.8330,81,1460.0000,0.0339,1,108
+30,Petco Park,San Diego Padres,"2024, 2025, 2026",3,242,12830,0.4147,240,12734,0.4373,0.9483,0.9613,0.0169,Pitcher-friendly,Other,0.8970,81,1439.6667,0.0334,2680,135
+31,Globe Life Field,Texas Rangers,"2024, 2025, 2026",3,243,12934,0.3983,243,12825,0.4384,0.9085,0.9314,0.0160,Pitcher-friendly,Other,0.9980,81,1421.3333,0.0330,5325,140
+32,T-Mobile Park,Seattle Mariners,"2024, 2025, 2026",3,243,12978,0.3841,242,12909,0.4330,0.8870,0.9152,0.0162,Pitcher-friendly,Other,1.0000,81,1436.6667,0.0333,680,136
+,Journey Bank Ballpark,,none (neutral-site only),0,,,,,,,,,,Neutral,Other,,1,18.0000,0.0004,2735,
+,Estadio Alfredo Harp Helu,,none (neutral-site only),0,,,,,,,,,,Neutral,Other,,2,35.0000,0.0008,5340,
+,Las Vegas Ballpark,,none (neutral-site only),0,,,,,,,,,,Neutral,Other,,6,110.0000,0.0026,5355,
+,Field of Dreams,,none (neutral-site only),0,,,,,,,,,,Neutral,Other,,1,18.0000,0.0004,5445,
