@@ -1,0 +1,11 @@
+# Cached raw pulls (Statcast parquet chunks, MLB Stats API responses): large, re-downloadable
+data/raw/
+
+# Processed intermediates are rebuilt by the pipeline
+data/processed/*.parquet
+
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.tmp

@@ -1,0 +1,7 @@
+pandas==3.0.6
+numpy==2.5.3
+pybaseball==2.2.7
+matplotlib==3.11.2
+pyarrow==25.0.1
+requests==2.34.2
+pytest==9.1.1
